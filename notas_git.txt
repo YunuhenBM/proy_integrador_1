@@ -1,0 +1,4 @@
+git status  # (Opcional, para ver qué cambió)
+git add nombre_del_archivo.py
+git commit -m "Descripción del cambio"
+git push origin master  # O "main" según la rama que uses
