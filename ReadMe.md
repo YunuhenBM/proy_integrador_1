@@ -1,5 +1,1 @@
-#Requisitos para entrega del proyecto
-#Título del proyecto
-#Descripción del proyecto
-#Herramientas que utilizamos
-#Comentar los códigos
+Se realizó un código para hacer un juego del Ahorcado. En él se utilizó un ciclo while como principal estructura, en donde se le pidió al usuario que ingresara una letra, con esa información se recorrió la variable en donde estaba almacenada cada letra, y en caso de sí pertenecer, se incorporó la letra a la palabra secreta, y se le comentó al usuario que estaba en lo correcto. En caso de no acertar a la letra, se le dijo al usuario que no estaba en lo correcto y se le quitó una vida.  Al ser un ciclo while, este proceso se repite hasta que ya no haya espacios en blanco, o hasta que el número de vidas sea cero. Si sucede lo primero, se le indica al usuario que ganó el juego, y si sucede lo segundo, se le indica que ha perdido. 
