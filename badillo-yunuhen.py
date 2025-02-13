@@ -13,7 +13,7 @@ vidas = 5
 print("Comienza el juego 👀🦑")
 print(palabra_unida)
 print(f"La palabra oculta tiene {l} letras")
-print(f"Comientas con {vidas} vidas 💚💚💚💚💚") 
+print(f"Comienzas con {vidas} vidas 💚💚💚💚💚") 
 
 # Actualizar el ahorcado
 # ¿Está la letra en la palabra?
@@ -40,9 +40,9 @@ while "_" in palabra_oc and vidas > 0:
 
 #Fin del juego
 if "_" not in palabra_oc:
-    print("Ganaste el juego. ¡Felicidades!")
+    print("Ganaste el juego. ¡Felicidades! 🙌")
 else: 
-    print("Perdiste :( )")
+    print("Perdiste 😪 )")
 
 
 
