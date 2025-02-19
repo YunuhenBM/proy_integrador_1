@@ -1,11 +1,7 @@
-Ø  Debes usar funciones.
+
 
 Ø  Usar args y kwargs.
 
 Ø  Implementar el uso de generadores y decoradores.
 
 Ø  Veo que usaste emojis y me encantó, pero si se pierde una vida, la cantidad de corazones debe ir acorde a la cantidad de vidas que le quedan.
-
-Ø  Una vez finalizado el juego, en el caso de perder o ganar debes mostrar por pantalla cual es la palabra secreta.
-
-Ø  Finalizado el juego, sea el resultado ganador o perdedor, debes implementar un mensaje que invite al usuario a jugar de nuevo o darle la opción de salir. Si ingresa volver a jugar, tienes que volver a comenzar el circuito de juego.
