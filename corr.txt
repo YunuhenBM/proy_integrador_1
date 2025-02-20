@@ -1,7 +1,0 @@
-
-
-Ø  Usar args y kwargs.
-
-Ø  Implementar el uso de generadores y decoradores.
-
-Ø  Veo que usaste emojis y me encantó, pero si se pierde una vida, la cantidad de corazones debe ir acorde a la cantidad de vidas que le quedan.
