@@ -16,7 +16,7 @@ def gen_palabras(lista_palabras):
         yield random.choice(lista_palabras)
 
 @reg_intentos #Se usa el decorador en nuestra función jugar
-def jugar(palabras=None, **kwargs): #Los kwargs indican que puede haber más parámetro a colocar.
+def jugar(palabras=None, **kwargs): #Los kwargs indican que puede haber más parámetros a colocar.
     if palabras is None: #Si el usuario no agrega una lista de palabras, las palabras por defalt serán "palabras":
         palabras = ["programacion", "escuela", "computadora", "github", "python", "java", "codigo", "estudiar"]
     palabra_gen = gen_palabras(palabras)
@@ -72,6 +72,8 @@ def jugar(palabras=None, **kwargs): #Los kwargs indican que puede haber más par
             else:
                 print("Respuesta inválida. Por favor elije S o N.") #Hasta que el usuario ingrese algo válido (S/N), esto se seguirá ejecutando
 
+
+#Ejemplos de cómo usar la función:
 
 #jugar(palabras=["comida", "juego", "moraleja", "mouse"], vidas=3)
 jugar()
